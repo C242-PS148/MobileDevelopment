@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Ganti background menjadi warna putih -->
+    <background android:drawable="@android:color/white" />
+
+    <!-- Tetap gunakan logo untuk foreground -->
+    <foreground android:drawable="@drawable/cek_logo" />
+
+    <!-- Tetap gunakan logo untuk monochrome -->
+    <monochrome android:drawable="@drawable/cek_logo" />
+</adaptive-icon>
